@@ -9,7 +9,8 @@
 #   3. pushes the tag.
 # This workflow then verifies every staged fixture against manifest.json, builds the
 # per-profile archives and SHA256SUMS, uploads them, removes the staging asset and
-# publishes the release.
+# publishes the release. It then prepares a new Zenodo version (left as a draft for
+# the maintainer to publish) with the same files.
 name: release
 
 on:
@@ -63,3 +64,18 @@ jobs:
         run: |
           python scripts/fetch_corpus.py --repo "$GITHUB_REPOSITORY" --tag "$TAG" --profile smoke --dest /tmp/verify-smoke
           python scripts/fetch_corpus.py --repo "$GITHUB_REPOSITORY" --tag "$TAG" --profile core --dest /tmp/verify-core --expected
+
+      - name: Prepare Zenodo files
+        run: |
+          mkdir -p zenodo
+          cp dist/* zenodo/
+          cp NOTICE README.md LICENSE zenodo/
+          git archive --format=zip -o "zenodo/ras-hdf-test-corpus-$TAG-source.zip" HEAD
+          ls -l zenodo
+
+      # Leaves the new Zenodo version as a DRAFT; the maintainer reviews and
+      # publishes it on zenodo.org (published versions are permanent).
+      - name: Create Zenodo version draft
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+        run: python scripts/zenodo_new_version.py --concept "${{ vars.ZENODO_CONCEPT_RECID }}" --tag "$TAG" --dir zenodo

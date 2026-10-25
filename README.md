@@ -1,5 +1,7 @@
 # ras-hdf-test-corpus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23641995.svg)](https://doi.org/10.5281/zenodo.23641995)
+
 Versioned, hashed HEC-RAS HDF test fixtures with precomputed expected values. They are for:
 
 - the Rust HEC-RAS HDF engine, [`gpt-cmdr/ras-commander-fast-hdf`](https://github.com/gpt-cmdr/ras-commander-fast-hdf);
@@ -87,3 +89,9 @@ CLB Engineering Corporation's contribution is dedicated to the public domain und
 ## Citation
 
 Each release is intended to be archived on Zenodo with a version DOI. That will be added once the repository owner enables the integration.
+
+## Citation
+
+Cite the corpus with its Zenodo DOI. [10.5281/zenodo.23641995](https://doi.org/10.5281/zenodo.23641995) always resolves to the latest version; each version also has its own DOI (v1.0.1: [10.5281/zenodo.23641996](https://doi.org/10.5281/zenodo.23641996)).
+
+> Katzenmeyer, W. (2026). *HEC-RAS HDF Test Corpus* (Version 1.0.1) [Data set]. CLB Engineering Corporation. Zenodo. https://doi.org/10.5281/zenodo.23641996

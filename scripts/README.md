@@ -31,3 +31,5 @@
 - `scan_ebfe_features.py` was used to search local eBFE files for refinement regions and layers.
 
 These scripts record what was run. Most of them need HEC-RAS on Windows and CLB's local inputs, so they are not expected to run in CI.
+
+- `zenodo_new_version.py`: after a release, creates a new version of the Zenodo record (concept `23641995`) with the release files and leaves it as a draft to publish on zenodo.org. Used by the release workflow; needs the `ZENODO_TOKEN` secret.
