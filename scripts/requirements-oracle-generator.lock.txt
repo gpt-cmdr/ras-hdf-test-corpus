@@ -1,0 +1,16 @@
+certifi==2026.10.23
+geopandas==1.2.0
+h5py==3.16.0
+numpy==2.5.4
+packaging==26.3
+pandas==3.1.0
+pyarrow==26.0.0
+pyogrio==0.13.0
+pyproj==3.8.0
+python-dateutil==3.0.0
+ras-commander==0.108.1
+ras-commander-fast-hdf==0.2.1
+shapely==2.2.0
+six==1.17.0
+tzdata==2026.5
+xarray==2026.9.0

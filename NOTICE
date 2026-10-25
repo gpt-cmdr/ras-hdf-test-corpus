@@ -1,0 +1,53 @@
+ras-hdf-test-corpus
+Copyright status and attribution notice
+
+LICENCE OF THIS CORPUS
+
+CLB Engineering Corporation's own contribution is dedicated to the public
+domain under CC0 1.0 Universal (see LICENSE;
+https://creativecommons.org/publicdomain/zero/1.0/). That contribution includes:
+  - excerpts and the excerpt recipes;
+  - synthetic fixtures and their generators;
+  - manifest.json, SHA256SUMS and the expected-value (oracle.json) files;
+  - scripts and documentation.
+
+Upstream material keeps its own status, listed below. Each fixture's
+"provenance" block in manifest.json names its source program, public download
+location, zip and in-zip path, source SHA-256, attribution line and licence.
+
+ATTRIBUTION
+
+US Army Corps of Engineers, Hydrologic Engineering Center (HEC)
+  Source: US Army Corps of Engineers, Hydrologic Engineering Center (HEC),
+  HEC-RAS example projects. US Government work (17 USC 105). Fixtures computed
+  or authored by CLB Engineering Corporation from HEC example inputs record
+  the HEC-RAS version and method in their manifest entry. "HEC-RAS" is used
+  descriptively; this corpus is not an HEC product and is not endorsed by HEC.
+
+FEMA estimated Base Flood Elevation (eBFE) program
+  Source: FEMA estimated Base Flood Elevation (eBFE) program. Public domain.
+  Only individual HDF files or excerpts are included, never whole packages.
+  Files re-preprocessed by CLB in HEC-RAS 7.0.1 say so in their provenance.
+
+Texas General Land Office, River Basin Flood Studies (RBFS)
+  Source: Texas General Land Office, River Basin Flood Studies. Public domain.
+  Distributed via the TDIS Data Modeling and Query Tool. Only individual HDF
+  files or excerpts are included.
+
+Homewood and Cahaba River models
+  Model by Jacob Beatty, CLB Engineering Corporation; used with permission.
+
+USGS 3D Elevation Program (3DEP)
+  Terrain and burn-polygon inputs of the Ether Hollow fixtures: USGS. Public
+  domain. Tutorial: USACE HEC. Model and runs: CLB Engineering Corporation.
+
+Louisiana Watershed Initiative (LWI)
+  Louisiana Watershed Initiative (LWI) Model Data, Louisiana Watershed
+  Council, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+  Credit is required. LWI data is only linked (profile "external"), at its
+  upstream AWS Open Data URL; it is not republished in the release assets.
+
+NOT INCLUDED
+
+  No client or project data is included. One non-public development model was
+  excluded.

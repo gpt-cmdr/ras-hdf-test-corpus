@@ -1,0 +1,17 @@
+# HDF data ships only as release assets
+*.hdf
+*.h5
+*.tif
+*.vrt
+fixtures/
+stage/
+staging/
+dist/
+.corpus/
+*.tar
+*.tar.gz
+__pycache__/
+sources.local.json
+# local deny list used by the release checks; never committed
+.denylist.local.txt
+*.local.txt

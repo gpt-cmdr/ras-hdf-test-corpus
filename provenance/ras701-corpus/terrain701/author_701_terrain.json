@@ -1,0 +1,33 @@
+{
+ "hecras_version": "7.0.1",
+ "method": "RasTerrain.create_terrain_hdf (RasProcess.exe CreateTerrain)",
+ "source": "Example_Projects_6_6.zip: 2D Unsteady Flow Hydraulics/BaldEagleCrkMulti2D/Terrain/Terrain50.dtm_20ft.tif",
+ "extent": [
+  1965981.77456347,
+  289578.11400543,
+  1971981.77456347,
+  295578.11400543
+ ],
+ "files": {
+  "Terrain701.dtm_20ft_clip.tif": {
+   "bytes": 215702,
+   "sha256": "f3ac29be9a635278b7a2c9a682260a935b8df5278a562bcb194c933e70294a86"
+  },
+  "Terrain701.hdf": {
+   "bytes": 65144,
+   "sha256": "cd94347ce2d854c0c3c2a45095847fc8c22718a393f5c241189e51f797f01c66"
+  },
+  "Terrain701.vrt": {
+   "bytes": 3018,
+   "sha256": "6914c315482dce9443d2ebede30bcb0090b51c825176f163fb45baffad93ba6e"
+  }
+ },
+ "root_attrs": {
+  "File Type": "HEC Terrain",
+  "Projection": "PROJCS[\"NAD_1983_StatePlane_Pennsylvania_North_FIPS_3701_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",1968500.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-77.75],PARAMETER[\"Standard_Parallel_1\",40.88333333333333],PARAMETER[\"Standard_Parallel_2\",41.95],PARAMETER[\"Latitude_Of_Origin\",40.16666666666666],UNIT[\"Foot_US\",0.3048006096012192]]",
+  "Version": "1.2"
+ },
+ "top": [
+  "Terrain"
+ ]
+}

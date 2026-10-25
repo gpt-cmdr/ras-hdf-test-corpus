@@ -1,0 +1,46 @@
+{
+ "hecras_version": "7.0.1",
+ "plan": "03",
+ "run_dir": "provenance/ras701-corpus/runs/Muncie_p03_map1HOUR",
+ "result": {
+  "success": true,
+  "mode": "selected",
+  "plans": {
+   "03": {
+    "success": true,
+    "output_dir": "clb-local:Muncie_p03/2D 50ft Grid",
+    "files": [
+     "clb-local:2D 50ft Grid/WSE (Max).Terrain.muncie_clip.tif",
+     "clb-local:2D 50ft Grid/Depth (Max).Terrain.muncie_clip.tif"
+    ],
+    "files_by_type": {
+     "wse": [
+      "clb-local:2D 50ft Grid/WSE (Max).Terrain.muncie_clip.tif"
+     ],
+     "depth": [
+      "clb-local:2D 50ft Grid/Depth (Max).Terrain.muncie_clip.tif"
+     ]
+    }
+   }
+  },
+  "render_mode": null
+ },
+ "new_files": {
+  "2D 50ft Grid\\Depth (Max).Terrain.muncie_clip.tif": {
+   "bytes": 2906580,
+   "sha256": "151f32208fd8e7950d6e2028e888fd35647d56237ed20c5a08f2a1ab9ff77b13"
+  },
+  "2D 50ft Grid\\Depth (Max).vrt": {
+   "bytes": 3249,
+   "sha256": "3864c58fb713fb60ecae19d0622de5e8120a70a75128f90e04ea9dce29bdaea2"
+  },
+  "2D 50ft Grid\\WSE (Max).Terrain.muncie_clip.tif": {
+   "bytes": 2169198,
+   "sha256": "956fb90d34a3a84726c7d65495ce73f1bc7d2115c714659b089d6a585dde6069"
+  },
+  "2D 50ft Grid\\WSE (Max).vrt": {
+   "bytes": 3151,
+   "sha256": "ce6ec8d70f46477fc998b162996f7cd74c6e14d300f0f530cd2fde33532c3da2"
+  }
+ }
+}

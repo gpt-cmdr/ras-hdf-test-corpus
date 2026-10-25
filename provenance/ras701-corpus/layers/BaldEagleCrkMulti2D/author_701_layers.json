@@ -1,0 +1,164 @@
+{
+ "hecras_version": "7.0.1",
+ "extent": [
+  1965981.77456347,
+  289578.11400543,
+  1971981.77456347,
+  295578.11400543
+ ],
+ "outputs": {
+  "landcover": "provenance/ras701-corpus/layers/BaldEagleCrkMulti2D\\Layers701\\LandCover701.hdf",
+  "soils": "clb-local:Layers701/Soils701.hdf",
+  "infiltration_scs_curve_number": "clb-local:Layers701/Infiltration701_scs_curve_number.hdf",
+  "infiltration_green_ampt": "clb-local:Layers701/Infiltration701_green_ampt.hdf",
+  "infiltration_deficit_constant": "clb-local:Layers701/Infiltration701_deficit_constant.hdf"
+ },
+ "errors": {},
+ "files": {
+  "Infiltration701_deficit_constant.backup.hdf": {
+   "bytes": 8552,
+   "sha256": "95a2efdfb0e17ceb6a8c208803eae148501dc2f00d5d8afe361ddffd4eaadd8c",
+   "attrs": {
+    "LC Type": "InfiltrationDeficitConstantLoss",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Variables"
+   ]
+  },
+  "Infiltration701_deficit_constant.hdf": {
+   "bytes": 10976,
+   "sha256": "429d2e21ab80d419a3e7f7659f2c3fc4ac91f78c696fdd600e418ae6ebb4c30c",
+   "attrs": {
+    "LC Type": "InfiltrationDeficitConstantLoss",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Variables"
+   ]
+  },
+  "Infiltration701_deficit_constant.native_parameters.20261024_192513_227854_692e8749.backup.hdf": {
+   "bytes": 8552,
+   "sha256": "95a2efdfb0e17ceb6a8c208803eae148501dc2f00d5d8afe361ddffd4eaadd8c",
+   "attrs": {
+    "LC Type": "InfiltrationDeficitConstantLoss",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Variables"
+   ]
+  },
+  "Infiltration701_green_ampt.backup.hdf": {
+   "bytes": 8824,
+   "sha256": "2f87ea9c1ac16c3bf236b4e584d0338099151d1f6cdfa4a47ff9cfdcdcbe8ea7",
+   "attrs": {
+    "LC Type": "InfiltrationGreenAmpt",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Variables"
+   ]
+  },
+  "Infiltration701_green_ampt.hdf": {
+   "bytes": 11288,
+   "sha256": "2541eb1584326e025e0da0a1970b29c2be9491f593da33596addbcdea821b012",
+   "attrs": {
+    "LC Type": "InfiltrationGreenAmpt",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Variables"
+   ]
+  },
+  "Infiltration701_green_ampt.native_parameters.20261024_192512_858806_bbeee2e9.backup.hdf": {
+   "bytes": 8824,
+   "sha256": "2f87ea9c1ac16c3bf236b4e584d0338099151d1f6cdfa4a47ff9cfdcdcbe8ea7",
+   "attrs": {
+    "LC Type": "InfiltrationGreenAmpt",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Variables"
+   ]
+  },
+  "Infiltration701_scs_curve_number.backup.hdf": {
+   "bytes": 10936,
+   "sha256": "4db08c2f6144574a152e2c90b5f673c55ecafe887619131ac93d1cdb4f8063dc",
+   "attrs": {
+    "LC Type": "InfiltrationSCSCurveNumber",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Properties",
+    "Variables"
+   ]
+  },
+  "Infiltration701_scs_curve_number.hdf": {
+   "bytes": 13270,
+   "sha256": "09518eb9391c7086b5d0db1c32f403c9a7386724d6ed1d507b74e0d88c484587",
+   "attrs": {
+    "LC Type": "InfiltrationSCSCurveNumber",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Properties",
+    "Variables"
+   ]
+  },
+  "Infiltration701_scs_curve_number.native_parameters.20261024_192512_457041_95fb7291.backup.hdf": {
+   "bytes": 10936,
+   "sha256": "4db08c2f6144574a152e2c90b5f673c55ecafe887619131ac93d1cdb4f8063dc",
+   "attrs": {
+    "LC Type": "InfiltrationSCSCurveNumber",
+    "Version": "2.0"
+   },
+   "top": [
+    "Dependency Classifications",
+    "Properties",
+    "Variables"
+   ]
+  },
+  "LandCover701.hdf": {
+   "bytes": 13877,
+   "sha256": "d25017c29937e18e856457643aef66e434b9d9dee2a91085e5dbe6b45c0ef349",
+   "attrs": {
+    "File Type": "HEC Land Cover",
+    "LC Type": "LandCover",
+    "Version": "2.0"
+   },
+   "top": [
+    "Percent Impervious",
+    "Raster Map",
+    "Variables"
+   ]
+  },
+  "LandCover701.tif": {
+   "bytes": 10028,
+   "sha256": "697b20c0667dda08297535880f3916e8bc58246b66173965d2193cd2500ae905"
+  },
+  "Soils701.hdf": {
+   "bytes": 8847,
+   "sha256": "58a0fdd54a64f207d93fa6e999fe20536bdb67bffbf3737747dc8bb240a5b4a8",
+   "attrs": {
+    "File Type": "HEC Land Cover",
+    "LC Type": "Soils",
+    "Version": "2.0"
+   },
+   "top": [
+    "Raster Map"
+   ]
+  },
+  "Soils701.tif": {
+   "bytes": 9888,
+   "sha256": "bb6fc8b383ab63115fcb7a0d869e3d3bb1fb5440635522a97599c26fc202e61e"
+  }
+ }
+}

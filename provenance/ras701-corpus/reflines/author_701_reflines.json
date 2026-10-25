@@ -1,0 +1,444 @@
+{
+ "Weise_p01": {
+  "case": "Weise_p01",
+  "project": "2D Sediment Transport/Weise_2D",
+  "plan": "01",
+  "geometry": "g08",
+  "source": {
+   "examples_zip": "clb-local:ras-commander/Example_Projects_6_6.zip",
+   "examples_zip_sha256": "ea239b506155a2dfeda2af80b3c2af948eef42c40218bcd65de472cfed386887",
+   "extracted_copy": "provenance/ras701-corpus/examples/2D Sediment Transport/Weise_2D",
+   "plan_sha256": "603196ede9e4b7a71ca8f0a31847470cb53f43c682c1d4524cb36e593173a856",
+   "geometry_sha256": "6b44898b114ba2f5af42429f4ffbc2b75731d7754d856d9b7310faade01f1ab1",
+   "geometry_hdf_sha256": "1530e9903b54b9ecc1dbe2ecbdc55f91486148ffe57d6c9a2c4c69c7e35da587",
+   "corpus_parent": "hec701r/Weise.p01.si-hydro"
+  },
+  "copy": "clb-local:runs/Weise_p01",
+  "ras_commander": {
+   "file": "clb-local:ras_commander/__init__.py",
+   "version": "0.98.2",
+   "git": "e851408e5daf025d6cdcf4de327ebe9281d0ce0c"
+  },
+  "plan_settings": [
+   "Computation Interval=0.2SEC",
+   "Output Interval=1MIN",
+   "Mapping Interval=5MIN",
+   "Run Sediment= 0"
+  ],
+  "injected_lines": [
+   {
+    "name": "RL_x02",
+    "storage_area": "2DArea",
+    "coordinates": [
+     [
+      2.0,
+      0.05
+     ],
+     [
+      2.0,
+      0.95
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "RL_x06",
+    "storage_area": "2DArea",
+    "coordinates": [
+     [
+      6.0,
+      0.05
+     ],
+     [
+      6.0,
+      0.25
+     ],
+     [
+      6.0,
+      0.45
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "RL_x11_diag",
+    "storage_area": "2DArea",
+    "coordinates": [
+     [
+      11.2,
+      0.05
+     ],
+     [
+      12.0,
+      0.95
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "RL_x14",
+    "storage_area": "2DArea",
+    "coordinates": [
+     [
+      14.0,
+      0.05
+     ],
+     [
+      14.0,
+      0.95
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "RL_long_center",
+    "storage_area": "2DArea",
+    "coordinates": [
+     [
+      3.0,
+      0.3
+     ],
+     [
+      8.0,
+      0.3
+     ],
+     [
+      13.0,
+      0.3
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   }
+  ],
+  "injected_points": [
+   {
+    "name": "RP_x01",
+    "x": 1.0,
+    "y": 0.5
+   },
+   {
+    "name": "RP_x05",
+    "x": 5.0,
+    "y": 0.5
+   },
+   {
+    "name": "RP_x09",
+    "x": 9.0,
+    "y": 0.25
+   },
+   {
+    "name": "RP_x13",
+    "x": 13.0,
+    "y": 0.75
+   },
+   {
+    "name": "RP_x16",
+    "x": 16.0,
+    "y": 0.5
+   }
+  ],
+  "text_round_trip": {
+   "lines": [
+    [
+     "RL_x02",
+     "2DArea"
+    ],
+    [
+     "RL_x06",
+     "2DArea"
+    ],
+    [
+     "RL_x11_diag",
+     "2DArea"
+    ],
+    [
+     "RL_x14",
+     "2DArea"
+    ],
+    [
+     "RL_long_center",
+     "2DArea"
+    ]
+   ],
+   "points": [
+    "RP_x01",
+    "RP_x05",
+    "RP_x09",
+    "RP_x13",
+    "RP_x16"
+   ]
+  },
+  "geometry_text_sha256_after_injection": "4c67f9af23d35f3383f1370e8edd2560a5d7fb08a65669996b378a2f20e592f4",
+  "method": "init_ras_project(copy, '7.0.1', ras_object='new'); RasCmdr.compute_plan(plan, ras_object=ras, num_cores=2, clear_geompre=True, force_rerun=True, verify=True)",
+  "result": "ComputeResult(SUCCESS, completion_verified=True, results_df_row=available)",
+  "success": true,
+  "seconds": 69.1,
+  "hdf_files": {
+   "Weise.g08.hdf": {
+    "bytes": 460533,
+    "sha256": "8df374fa06ee0a927354716924cef8e04958d47767978c0c7af39c40b2244bf3"
+   },
+   "Weise.p01.hdf": {
+    "bytes": 1577115,
+    "sha256": "ff341f17c01c48a1dc146ac274401b9cdbda27e72f0dc6ed5ba64aa4ca65c509"
+   }
+  }
+ },
+ "BaldEagleDamBrk_p18": {
+  "case": "BaldEagleDamBrk_p18",
+  "project": "2D Unsteady Flow Hydraulics/BaldEagleCrkMulti2D",
+  "plan": "18",
+  "geometry": "g11",
+  "source": {
+   "examples_zip": "clb-local:ras-commander/Example_Projects_6_6.zip",
+   "examples_zip_sha256": "ea239b506155a2dfeda2af80b3c2af948eef42c40218bcd65de472cfed386887",
+   "extracted_copy": "provenance/ras701-corpus/examples/2D Unsteady Flow Hydraulics/BaldEagleCrkMulti2D",
+   "plan_sha256": "cfa4bb801bf957dd1b0ad81b03bf5714e8a92608c75e38eadf285b429675a833",
+   "geometry_sha256": "d6d651480734d7cf609b7509f1e760b12200d86a9053a08441e73f0e90c740c4",
+   "geometry_hdf_sha256": "811e002bc0e81f5a75d61da67002ca764e396e8a3d6bf55a857a2e9e07e86b9b",
+   "corpus_parent": "hec701r/BaldEagleDamBrk.p19 / p15 (same project; p18 is the two-2D-area plan)"
+  },
+  "copy": "clb-local:runs/BaldEagleDamBrk_p18",
+  "ras_commander": {
+   "file": "clb-local:ras_commander/__init__.py",
+   "version": "0.98.2",
+   "git": "e851408e5daf025d6cdcf4de327ebe9281d0ce0c"
+  },
+  "plan_settings": [
+   "Computation Interval=20SEC",
+   "Output Interval=1MIN",
+   "Mapping Interval=1HOUR",
+   "Run Sediment= 0 "
+  ],
+  "generated": {
+   "storage_area": "BaldEagleCr",
+   "breaklines": [
+    "Upper",
+    "Middle",
+    "Lower"
+   ],
+   "spacing": 6000.0,
+   "line_length": 2500.0,
+   "name_template": "BE_XS_{source_name}_{index:02d}",
+   "generator": "GeomReferenceFeatures.generate_reference_lines_from_longitudinal_line",
+   "kept_after_clip": [
+    "BE_XS_Upper_02",
+    "BE_XS_Middle_02",
+    "BE_XS_Lower_02",
+    "BE_XS_Lower_03",
+    "RL_Shared"
+   ]
+  },
+  "injected_lines": [
+   {
+    "name": "BE_XS_Upper_02",
+    "storage_area": "BaldEagleCr",
+    "coordinates": [
+     [
+      2050977.9807865669,
+      346242.5940204274
+     ],
+     [
+      2049955.017867591,
+      348523.72243996017
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "BE_XS_Middle_02",
+    "storage_area": "BaldEagleCr",
+    "coordinates": [
+     [
+      2057878.2835765649,
+      350178.4418436317
+     ],
+     [
+      2057309.1456364952,
+      352612.79637926794
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "BE_XS_Lower_02",
+    "storage_area": "BaldEagleCr",
+    "coordinates": [
+     [
+      2057005.2918248351,
+      355160.1765606676
+     ],
+     [
+      2057049.6542455198,
+      352660.57019653125
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "BE_XS_Lower_03",
+    "storage_area": "BaldEagleCr",
+    "coordinates": [
+     [
+      2051556.571404093,
+      356004.7401592576
+     ],
+     [
+      2050823.1721356907,
+      353614.73482179357
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "RL_Shared",
+    "storage_area": "BaldEagleCr",
+    "coordinates": [
+     [
+      2020500.0,
+      330500.0
+     ],
+     [
+      2022500.0,
+      335500.0
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "UP_XS_1",
+    "storage_area": "Upper 2D Area",
+    "coordinates": [
+     [
+      1978500.0,
+      297000.0
+     ],
+     [
+      1981000.0,
+      299000.0
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "UP_XS_2",
+    "storage_area": "Upper 2D Area",
+    "coordinates": [
+     [
+      1990000.0,
+      306000.0
+     ],
+     [
+      1991000.0,
+      307500.0
+     ],
+     [
+      1992000.0,
+      309000.0
+     ]
+    ],
+    "method": "GeomReferenceFeatures.add_reference_lines"
+   },
+   {
+    "name": "RL_Shared",
+    "storage_area": "Upper 2D Area",
+    "coordinates": [
+     [
+      1998000.0,
+      312000.0
+     ],
+     [
+      2000000.0,
+      314500.0
+     ]
+    ],
+    "method": "direct_block (_build_reference_line_block; add_reference_lines refuses a name repeated across areas)"
+   }
+  ],
+  "injected_points": [
+   {
+    "name": "RP_BE_Upper",
+    "x": 2012000.0,
+    "y": 327000.0
+   },
+   {
+    "name": "RP_BE_Mid",
+    "x": 2030250.0,
+    "y": 335250.0
+   },
+   {
+    "name": "RP_BE_Lower",
+    "x": 2063500.0,
+    "y": 352250.0
+   },
+   {
+    "name": "RP_UP_1",
+    "x": 1980000.0,
+    "y": 300000.0
+   },
+   {
+    "name": "RP_UP_2",
+    "x": 1995000.0,
+    "y": 310000.0
+   }
+  ],
+  "text_round_trip": {
+   "lines": [
+    [
+     "UP_XS_1",
+     "Upper 2D Area"
+    ],
+    [
+     "UP_XS_2",
+     "Upper 2D Area"
+    ],
+    [
+     "BE_XS_Upper_02",
+     "BaldEagleCr"
+    ],
+    [
+     "BE_XS_Middle_02",
+     "BaldEagleCr"
+    ],
+    [
+     "BE_XS_Lower_02",
+     "BaldEagleCr"
+    ],
+    [
+     "BE_XS_Lower_03",
+     "BaldEagleCr"
+    ],
+    [
+     "RL_Shared",
+     "BaldEagleCr"
+    ],
+    [
+     "RL_Shared",
+     "Upper 2D Area"
+    ]
+   ],
+   "points": [
+    "RP_BE_Upper",
+    "RP_BE_Mid",
+    "RP_BE_Lower",
+    "RP_UP_1",
+    "RP_UP_2"
+   ]
+  },
+  "geometry_text_sha256_after_injection": "a9efde24ecad29aad05b714e5011f183432e6ad657eb0786f19c54602004c6a7",
+  "method": "init_ras_project(copy, '7.0.1', ras_object='new'); RasCmdr.compute_plan(plan, ras_object=ras, num_cores=2, clear_geompre=True, force_rerun=True, verify=True)",
+  "result": "ComputeResult(SUCCESS, completion_verified=True, results_df_row=available)",
+  "success": true,
+  "seconds": 140.8,
+  "hdf_files": {
+   "BaldEagleDamBrk.g11.hdf": {
+    "bytes": 5991238,
+    "sha256": "3bfef5838cadd988e5f89a6bd2a181066ecbfc9f6178a9bf5aa43e9959b4f900"
+   },
+   "BaldEagleDamBrk.p18.hdf": {
+    "bytes": 11693015,
+    "sha256": "b1b1d551844d3a18189fa501dd88bbfbc8ef2878e66e6a608921b4a099a81390"
+   }
+  }
+ }
+}

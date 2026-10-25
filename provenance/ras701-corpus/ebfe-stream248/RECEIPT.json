@@ -1,0 +1,73 @@
+{
+ "source": {
+  "program": "FEMA estimated Base Flood Elevation (eBFE)",
+  "attribution": "Source: FEMA estimated Base Flood Elevation (eBFE) program",
+  "study": "HUC8 12100203 San Marcos (FEMA Region 6, Texas), HUC10 1210020304, 1D BLE model 'Stream248'",
+  "download_location": "https://ebfedata.s3.amazonaws.com/12100203_SanMarcos/12100203_Models.zip",
+  "portal": "https://webapps.usgs.gov/infrm/estBFE/",
+  "zip_name": "12100203_Models.zip",
+  "zip_bytes": 68778649,
+  "zip_sha256": "3a900b5ed587567e66b13d966e008bc336ea6155d164c44df2fd1c742a061c7a",
+  "path_in_zip": "Hydraulic_Models/1210020304/Stream248/",
+  "delivered_members": {
+   "XsOutData.txt": {
+    "bytes": 5972,
+    "sha256": "4f6d1d5ad8530452e199bd780cf66217c7f56956ffece22aa613e1b5cbf8fefd"
+   },
+   "Stream248.f01": {
+    "bytes": 944,
+    "sha256": "76184b5cd9605678cf3ee45f066205b67394accc82c0ea16aacf34057085703e"
+   },
+   "Stream248.g01": {
+    "bytes": 31261,
+    "sha256": "9f27850c8e4091357c3ff2a1462958181f4fd1d13b54c459bc5b43e1bdbc80e0"
+   },
+   "Stream248.O01": {
+    "bytes": 83200,
+    "sha256": "5b9e8fe3ef26c1c2f509ad1d89eb04b052e7ad995be1009a77e15ee2ea407c34"
+   },
+   "Stream248.p01": {
+    "bytes": 595,
+    "sha256": "c314f7fc587fb2a876ce73ee814aee13b8422c40c7ea8f9c4fcb441c5d50b94f"
+   },
+   "Stream248.p01.comp_msgs.txt": {
+    "bytes": 122,
+    "sha256": "47e8b59cc2210a64f8d9b67ecadea111e884131abbc137ba89c0c75965174c7d"
+   },
+   "Stream248.prj": {
+    "bytes": 199,
+    "sha256": "190b4e33b8b25b87ebf37dc1c4f3c01ac8b38701a8b0f02d980c5affd482f396"
+   },
+   "Stream248.r01": {
+    "bytes": 25821,
+    "sha256": "f75d8e806a298dc0c20451faeeab428c3bedb2373c09eace6137e4bc01794365"
+   }
+  },
+  "delivered_program_version": "HEC-RAS 4.10 steady (Program Version=4.10 in .p01); no HDF in the package",
+  "licence": "Public domain"
+ },
+ "computed": {
+  "hec_ras": "HEC-RAS 7.0.1 (clb-local:HEC-RAS/7.0.1, via ras_commander 0.108.0 RasCmdr.compute_plan",
+  "date": "2026-10-24",
+  "p01": "delivered steady plan 'Multiple Run' (7 profiles, normal depth 0.005), computed unchanged: init_ras_project(dir,'7.0.1'); RasCmdr.compute_plan('01', clear_geompre=True)",
+  "p02": "CLB-added unsteady plan 'CLB Unsteady Constant 10yr' (build_unsteady.py): flow u01 = constant 450 cfs (eBFE 10-year at RS 7000) for 24 h, normal depth 0.005 at RS 576; plan settings from the HEC-RAS 5.0.7 example beaver.p01 with 10 s computation interval, mixed flow (UNET Froude Reduction=True); RasCmdr.compute_plan('02'). Volume accounting error 0.00004%; final flow 450 cfs at all 14 XS.",
+  "clb_changes_vs_delivered": [
+   "Stream248.prj lists p02 and u01",
+   "new files Stream248.p02, Stream248.u01"
+  ],
+  "outputs": {
+   "Stream248.g01.hdf": {
+    "bytes": 441761,
+    "sha256": "76e2cdc87adeede431014caceaf34a76e24b6687a85b95252788f561b5b586cd"
+   },
+   "Stream248.p01.hdf": {
+    "bytes": 479758,
+    "sha256": "521f6cd3d7a3f1612e2324065212b3a3e301a3f7541dafedcf0514234a37089b"
+   },
+   "Stream248.p02.hdf": {
+    "bytes": 993521,
+    "sha256": "b12bc7b6c2cb436d91b50f0337d28d65f1494ae8c0d4b2143a263a239f52773f"
+   }
+  }
+ }
+}

@@ -1,0 +1,65 @@
+# Publishes a corpus release. Runs only on a pushed version tag.
+#
+# The HDF fixtures are not in git. Before pushing tag vX.Y.Z, a maintainer:
+#   1. stages the fixtures and expected values locally:
+#        python scripts/build_release.py stage ... --stage stage
+#        python scripts/generate_expected.py --manifest manifest.json --stage stage stage/expected --parquet-out stage/expected-parquet
+#   2. packs stage/ into staging.tar and attaches it to a DRAFT release named after the tag:
+#        gh release create vX.Y.Z --draft --title "vX.Y.Z" --notes-file RELEASE_NOTES.md staging.tar
+#   3. pushes the tag.
+# This workflow then verifies every staged fixture against manifest.json, builds the
+# per-profile archives and SHA256SUMS, uploads them, removes the staging asset and
+# publishes the release.
+name: release
+
+on:
+  push:
+    tags: ["v*.*.*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download staging asset from the draft release
+        run: |
+          gh release view "$TAG" --json isDraft,assets --jq '.isDraft, (.assets[].name)'
+          test "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = "true"
+          mkdir -p staging
+          gh release download "$TAG" --pattern 'staging*.tar' --dir staging
+
+      - name: Extract staging
+        run: |
+          mkdir -p stage
+          for t in staging/staging*.tar; do tar -xf "$t" -C stage; done
+          ls stage
+
+      - name: Verify fixtures and build archives
+        run: python scripts/build_release.py package --manifest manifest.json --stage stage --out dist
+
+      - name: Check archives against SHA256SUMS
+        run: cd dist && sha256sum -c SHA256SUMS
+
+      - name: Upload assets and publish
+        run: |
+          gh release upload "$TAG" dist/* --clobber
+          for a in $(gh release view "$TAG" --json assets --jq '.assets[].name' | grep '^staging'); do
+            gh release delete-asset "$TAG" "$a" --yes
+          done
+          gh release edit "$TAG" --draft=false --latest
+
+      - name: Verify the published release with the fetch script
+        run: |
+          python scripts/fetch_corpus.py --repo "$GITHUB_REPOSITORY" --tag "$TAG" --profile smoke --dest /tmp/verify-smoke
+          python scripts/fetch_corpus.py --repo "$GITHUB_REPOSITORY" --tag "$TAG" --profile core --dest /tmp/verify-core --expected

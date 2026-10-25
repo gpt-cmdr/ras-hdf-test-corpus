@@ -1,0 +1,523 @@
+{
+ "hec701/BaldEagleDamBrk.p03": {
+  "id": "hec701/BaldEagleDamBrk.p03",
+  "source": "clb-local:fixtures/h4/corpus/701/BaldEagleCrkMulti2D/p03/F0/BaldEagleDamBrk.p03.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 27722207,
+  "source_sha256": "dcdc5e7732a2f4eed52349ecea915a0c0b931a28143d08cefe47c23bf2cdfbad",
+  "excerpt_bytes": 17397363,
+  "excerpt_sha256": "db1f1f886b2707ea8305a4e17f484234a86937ee30a04298c61cb48e7e6831dd",
+  "truncated": 140,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec701/BaldEagleDamBrk.p03.warmup_restart": {
+  "id": "hec701/BaldEagleDamBrk.p03.warmup_restart",
+  "source": "clb-local:fixtures/h4/corpus/701/BaldEagleCrkMulti2D/p03/F2F4_warmup_restart/BaldEagleDamBrk.p03.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 92086272,
+  "source_sha256": "8f4f3017869da44dbabb0cdd8e2478cff7686d83a5475ba70406203a57392303",
+  "excerpt_bytes": 20266294,
+  "excerpt_sha256": "e39e1ba4382a145c6357ad8523ca268ee8209106c298679ef4a5942d4525044e",
+  "truncated": 166,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec701/BaldEagleDamBrk.p18.all2d": {
+  "id": "hec701/BaldEagleDamBrk.p18.all2d",
+  "source": "clb-local:fixtures/h4/corpus/701/BaldEagleCrkMulti2D/p18/F1_all2d/BaldEagleDamBrk.p18.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 51207226,
+  "source_sha256": "2188978644ef35240f46ca2b04acf0f9a32ba6382b84aa0c8214db2a7d4c6e80",
+  "excerpt_bytes": 8138412,
+  "excerpt_sha256": "b86eff07059ba49f507d36c6f9bed85b8b5e553ad56ae1ffb7ae7547ce53c32a",
+  "truncated": 202,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec701/BaldEagleDamBrk.p06.infil": {
+  "id": "hec701/BaldEagleDamBrk.p06.infil",
+  "source": "clb-local:fixtures/h4/corpus/701/BaldEagleCrkMulti2D/p06/infil_regions/BaldEagleDamBrk.p06.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 300989937,
+  "source_sha256": "b30613f3b633303c3ef5f850d2dc9304f0964fd58d904a73fa1d10d5bedb5bb0",
+  "excerpt_bytes": 33120099,
+  "excerpt_sha256": "588430b81f674a00360ef4e4e347a5d40f58ac45f264b83383fccd29cd8ba96d",
+  "truncated": 230,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec701/BaldEagleDamBrk.p06.infil.noproptables": {
+  "id": "hec701/BaldEagleDamBrk.p06.infil.noproptables",
+  "source": "clb-local:fixtures/h4/corpus/701/BaldEagleCrkMulti2D/p06/infil_regions/BaldEagleDamBrk.p06.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 300989937,
+  "source_sha256": "b30613f3b633303c3ef5f850d2dc9304f0964fd58d904a73fa1d10d5bedb5bb0",
+  "excerpt_bytes": 23297422,
+  "excerpt_sha256": "78f8d6b018ead0238c7acf446ad2cf84987a8f3c518a50e86f7d4144ba4c424e",
+  "truncated": 230,
+  "excluded": [
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "hec701/DavisStormSystem.p02": {
+  "id": "hec701/DavisStormSystem.p02",
+  "source": "clb-local:fixtures/h4/corpus/701/Davis/p02/F0/DavisStormSystem.p02.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 21257739,
+  "source_sha256": "d90afcdc9b0c0adcb994a14c792bccc16e80459bc286d59936ce70807c8e1908",
+  "excerpt_bytes": 3715530,
+  "excerpt_sha256": "4b8c56fcf7c50bbb1f876b624dc249d70834054e5ed1202bf307544feb7c2ae5",
+  "truncated": 130,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec701/DavisStormSystem.p02.all2d": {
+  "id": "hec701/DavisStormSystem.p02.all2d",
+  "source": "clb-local:fixtures/h4/corpus/701/Davis/p02/F1_all2d/DavisStormSystem.p02.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 83078187,
+  "source_sha256": "a0375ebfce10a03a2d87c09b62b00dd38aad04a4b45c9ae3700e9be450c49812",
+  "excerpt_bytes": 6278128,
+  "excerpt_sha256": "ee3fff68511a2fa2bd87bbfa50bf60ca572d402d46329ad0303c66f7d52c695b",
+  "truncated": 183,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec701/Weise.p01": {
+  "id": "hec701/Weise.p01",
+  "source": "clb-local:fixtures/h4/corpus/701/Weise_2D/p01/sed_active_layer/Weise.p01.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 37678137,
+  "source_sha256": "f1f6d98110422817ce69346ebf7c760341fc05f9db80da8919919049996c34a5",
+  "excerpt_bytes": 4863490,
+  "excerpt_sha256": "cce1a1131e494aa94570999f4b1a2adcd0e6292f7089eb8c6add09db77b9d387",
+  "truncated": 298,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec66/BaldEagleDamBrk.p07": {
+  "id": "hec66/BaldEagleDamBrk.p07",
+  "source": "clb-local:fixtures/structures-fixtures/BaldEagleDamBrk.p07.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 482604388,
+  "source_sha256": "07cad3930a679891f87bbface1ab749b82fd7d7eae6aaac3b5ff041c44280984",
+  "excerpt_bytes": 49254798,
+  "excerpt_sha256": "66cbcd225b755ef7cc233de6bddc29e0b68d138859c6533ca5bbbde6da7551de",
+  "truncated": 208,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "hec66/BaldEagleDamBrk.p07.noproptables": {
+  "id": "hec66/BaldEagleDamBrk.p07.noproptables",
+  "source": "clb-local:fixtures/structures-fixtures/BaldEagleDamBrk.p07.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 482604388,
+  "source_sha256": "07cad3930a679891f87bbface1ab749b82fd7d7eae6aaac3b5ff041c44280984",
+  "excerpt_bytes": 14748608,
+  "excerpt_sha256": "10b8a2310161026766be2d577ef6ece92561f614c23f54edf314ae9d4eb4eaae",
+  "truncated": 208,
+  "excluded": [
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "hec66/BaldEagleDamBrk.p03.refpts": {
+  "id": "hec66/BaldEagleDamBrk.p03.refpts",
+  "source": "clb-local:fixtures/h4/corpus/66/BaldEagleCrkMulti2D/p03/F3_refpts_lines/BaldEagleDamBrk.p03.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 24187222,
+  "source_sha256": "ec3c8680799b8c2e60ae22c89df4a63f6461d3276a59a2bdc881dc17339a9f81",
+  "excerpt_bytes": 13796343,
+  "excerpt_sha256": "0dcc15bc4c1e6fb44427df2b83c5de56064913dea1be4b1576f0e74e99cd9913",
+  "truncated": 170,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ },
+ "clb/Homewood.p02": {
+  "id": "clb/Homewood.p02",
+  "source": "clb-local:golden-corpus/Homewood.p02.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 61997101,
+  "source_sha256": "f07c62be5e82c831f564226c02e75adcd7bc2ab7919679f33c4fcfc7de5341eb",
+  "excerpt_bytes": 17141775,
+  "excerpt_sha256": "82fe47d2a70d28e9fc387c29937bac24f142daf2a9073635d6a26086a84d6fed",
+  "truncated": 118,
+  "excluded": [
+   "Geometry/2D Flow Areas/Homewood_2D/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/Homewood_2D/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/Homewood_2D/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/Homewood_2D/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "clb/CahabaRiver.g03": {
+  "id": "clb/CahabaRiver.g03",
+  "source": "clb-local:fixtures/wave3b-fixtures/extra-CahabaRiver.g03.hdf",
+  "args": [
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 61300504,
+  "source_sha256": "2752a3cd34d9f176a283e2f9bd1dcf0c344c517a3a8a8ec1185022d153bafc63",
+  "excerpt_bytes": 5444819,
+  "excerpt_sha256": "6baef7ee79e0e5e4de5936ce0ab199dd60e551dd2e49da1e2e332fc84dd35578",
+  "truncated": 0,
+  "excluded": [
+   "Geometry/2D Flow Areas/Perimeter 1/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/Perimeter 1/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/Perimeter 1/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/Perimeter 1/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "ebfe/1101001306.p01": {
+  "id": "ebfe/1101001306.p01",
+  "source": "clb-local:ebfe-extraction/little_red7_full_original_sources_v1/Glaise Creek-White River_1101001306/Output/1101001306.p01.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 440508084,
+  "source_sha256": "5106807376e0f69db9aa9714c1d50753c1682f6c678ce8049889b5cdd117f85f",
+  "excerpt_bytes": 176715325,
+  "excerpt_sha256": "e8c23b49cb02c3b1cf55250fa86c0021816f4c136c84bc8630fbc00cfae9e804",
+  "truncated": 449,
+  "excluded": [
+   "Geometry/2D Flow Areas/default geometry/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/default geometry/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/default geometry/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/default geometry/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "ebfe/AustinOyster.p03.v507": {
+  "id": "ebfe/AustinOyster.p03.v507",
+  "source": "clb-local:Input/AustinOyster.p03.hdf",
+  "args": [
+   "--include-only",
+   "Plan Data",
+   "Event Conditions",
+   "Results/Unsteady/Summary",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time Date Stamp",
+   "Geometry/2D Flow Areas/Attributes",
+   "Geometry/Boundary Condition Lines",
+   "Geometry/Structures/Attributes"
+  ],
+  "source_bytes": 3249672993,
+  "source_sha256": "fdaff5045ad36bf5d424489ff64b3d86a1e0e3ef92a628554488f009047cad92",
+  "excerpt_bytes": 503134,
+  "excerpt_sha256": "29c8706d7e671ebd79c4ed5d3307dcd06148a67cab0762b36822d3a8c14f3480",
+  "truncated": 2,
+  "excluded": [
+   "Geometry/2D Flow Area Break Lines",
+   "Geometry/2D Flow Area Refinement Regions",
+   "Geometry/2D Flow Areas/Cell Info",
+   "Geometry/2D Flow Areas/Cell Points",
+   "Geometry/2D Flow Areas/Perimeter 1",
+   "Geometry/2D Flow Areas/Polygon Info",
+   "Geometry/2D Flow Areas/Polygon Parts",
+   "Geometry/2D Flow Areas/Polygon Points",
+   "Geometry/Land Cover (Manning's n)",
+   "Geometry/River Bank Lines",
+   "Geometry/River Edge Lines",
+   "Geometry/River Flow Paths",
+   "Geometry/River Stationing",
+   "Geometry/Structures/Centerline Info",
+   "Geometry/Structures/Centerline Parts",
+   "Geometry/Structures/Centerline Points",
+   "Geometry/Structures/Profiles",
+   "Results/Summary",
+   "Results/Unsteady/Geometry Info",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Summary Output",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/SA 2D Area Conn",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time Date Stamp (ms)",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time Step",
+   "Results/Unsteady/Output/Output Blocks/Computation Block",
+   "Results/Unsteady/Output/Output Blocks/DSS Hydrograph Output",
+   "Results/Unsteady/Output/Output Blocks/DSS Profile Output"
+  ],
+  "n_excluded": 27,
+  "verify": "OK"
+ },
+ "rbfs/DowntownCorpusChris.p17": {
+  "id": "rbfs/DowntownCorpusChris.p17",
+  "source": "clb-local:_tmp_rbfs/DowntownCorpusChris.p17.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 28813976,
+  "source_sha256": "32770e011a4f50b4a97d11d0772e797003110d9e744687d2561ad05749b68468",
+  "excerpt_bytes": 15970196,
+  "excerpt_sha256": "42622ada032ed650d16465e7a9e08b3ff22a16686ebd76c2aed889a34a0e074d",
+  "truncated": 1955,
+  "excluded": [
+   "Geometry/2D Flow Areas/DCC_Perimeter_1/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/DCC_Perimeter_1/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/DCC_Perimeter_1/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/DCC_Perimeter_1/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "ebfe/1101001306.p01.features": {
+  "id": "ebfe/1101001306.p01.features",
+  "source": "clb-local:ebfe-extraction/little_red7_full_original_sources_v1/Glaise Creek-White River_1101001306/Output/1101001306.p01.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--include-only",
+   "Plan Data",
+   "Event Conditions",
+   "Results/Unsteady/Summary",
+   "Geometry/2D Flow Area Refinement Regions",
+   "Geometry/Reference Lines",
+   "Geometry/Boundary Condition Lines",
+   "Geometry/2D Flow Area Break Lines",
+   "Geometry/2D Flow Areas/Attributes",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time Date Stamp",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Reference Lines",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Boundary Conditions"
+  ],
+  "source_bytes": 440508084,
+  "source_sha256": "5106807376e0f69db9aa9714c1d50753c1682f6c678ce8049889b5cdd117f85f",
+  "excerpt_bytes": 2064799,
+  "excerpt_sha256": "987780552c5e1950ac0e61ddb1aeaf8ae72830768580efa1d22e9b47989ad170",
+  "truncated": 109,
+  "excluded": [
+   "Geometry/2D Flow Areas/Cell Info",
+   "Geometry/2D Flow Areas/Cell Points",
+   "Geometry/2D Flow Areas/Polygon Info",
+   "Geometry/2D Flow Areas/Polygon Parts",
+   "Geometry/2D Flow Areas/Polygon Points",
+   "Geometry/2D Flow Areas/default geometry",
+   "Geometry/AutoUpdateParameters",
+   "Geometry/Compute Processes",
+   "Geometry/Cross Sections",
+   "Geometry/GeomPreprocess",
+   "Geometry/Land Cover (Manning's n)",
+   "Geometry/Structures",
+   "Results/Summary",
+   "Results/Unsteady/Geometry Info",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Summary Output",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Cell Cumulative Excess Depth",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Cell Cumulative Infiltration Depth",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Cell Cumulative Precipitation Depth",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Face Velocity",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Log Hydraulics",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Reference Lines",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Time Step",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/2D Flow Areas/default geometry/Water Surface",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Boundary Conditions",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time Date Stamp (ms)",
+   "Results/Unsteady/Output/Output Blocks/Base Output/Unsteady Time Series/Time Step",
+   "Results/Unsteady/Output/Output Blocks/Computation Block",
+   "Results/Unsteady/Output/Output Blocks/DSS Hydrograph Output",
+   "Results/Unsteady/Output/Output Blocks/DSS Profile Output"
+  ],
+  "n_excluded": 29,
+  "verify": "OK"
+ },
+ "hec701/BaldEagleDamBrk.p03.all2d.noproptables": {
+  "id": "hec701/BaldEagleDamBrk.p03.all2d.noproptables",
+  "source": "clb-local:fixtures/h4/corpus/701/BaldEagleCrkMulti2D/p03/F1_all2d/BaldEagleDamBrk.p03.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 85080573,
+  "source_sha256": "a012d74f4b269e9a5330032bcc179bd112bab098c8903ea5437fbe40dbf58aa1",
+  "excerpt_bytes": 10481191,
+  "excerpt_sha256": "cbc213518c344d2bdc46e5b37de2abb13ca5c0fa4a18b454c6e8510f846f4c74",
+  "truncated": 166,
+  "excluded": [
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "hec701/BaldEagleDamBrk.p03.refpts.noproptables": {
+  "id": "hec701/BaldEagleDamBrk.p03.refpts.noproptables",
+  "source": "clb-local:fixtures/h4/corpus/701/BaldEagleCrkMulti2D/p03/F3_refpts_lines/BaldEagleDamBrk.p03.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 28019916,
+  "source_sha256": "0d7cd1ef30a3dbdf523d388aed80721912be15ba0c2706a4d3646a51dc0b0f68",
+  "excerpt_bytes": 7765653,
+  "excerpt_sha256": "ad344136793543597eea594679836ce0a97ddce68d9048870f4f671e5a08d4d6",
+  "truncated": 188,
+  "excluded": [
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/BaldEagleCr/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "hec701/EtherHollow.p01.bingham700.noproptables": {
+  "id": "hec701/EtherHollow.p01.bingham700.noproptables",
+  "source": "clb-local:fixtures/h4/corpus/fixtures-20261022-ether-hollow/full_2core/bingham_ty700/EtherHollow.p01.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last",
+   "--exclude-basename",
+   "Faces Area Elevation Info",
+   "Faces Area Elevation Values",
+   "Cells Volume Elevation Info",
+   "Cells Volume Elevation Values"
+  ],
+  "source_bytes": 35077136,
+  "source_sha256": "9dff3de9fd1c5d704e1d7f22285945281c896477e9b8c973d4c40b157c4fe84d",
+  "excerpt_bytes": 4429392,
+  "excerpt_sha256": "4754c67571218cb20b97a431bb9f8352372a4aaa29e8822ccecdaea753586ec9",
+  "truncated": 79,
+  "excluded": [
+   "Geometry/2D Flow Areas/DebrisFlowArea/Cells Volume Elevation Info",
+   "Geometry/2D Flow Areas/DebrisFlowArea/Cells Volume Elevation Values",
+   "Geometry/2D Flow Areas/DebrisFlowArea/Faces Area Elevation Info",
+   "Geometry/2D Flow Areas/DebrisFlowArea/Faces Area Elevation Values"
+  ],
+  "n_excluded": 4,
+  "verify": "OK"
+ },
+ "hec701/BaldEagleDamBrk.p15": {
+  "id": "hec701/BaldEagleDamBrk.p15",
+  "source": "provenance/ras701-corpus/runs/BaldEagleCrkMulti2D_p15_map1HOUR/BaldEagleDamBrk.p15.hdf",
+  "args": [
+   "--rows",
+   "8",
+   "--keep-last"
+  ],
+  "source_bytes": 25411053,
+  "source_sha256": "9b14c6cbc7726c67ff702463f56fdaabc8ce55e0de0d96813e8d2e7f64a8367f",
+  "excerpt_bytes": 19497200,
+  "excerpt_sha256": "f1b89ede1499c051fde379be9a0ccd54c35baf408a39c57d4c629f704cdcab9b",
+  "truncated": 143,
+  "excluded": [],
+  "n_excluded": 0,
+  "verify": "OK"
+ }
+}

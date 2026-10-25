@@ -1,0 +1,1001 @@
+{
+ "Balde Eagle Creek.p01": {
+  "project": "1D Unsteady Flow Hydraulics/Balde Eagle Creek",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Balde_Eagle_Creek_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=2MIN",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 148.2,
+  "hdf_files": {
+   "BaldEagle.g01.hdf": {
+    "bytes": 5242726,
+    "sha256": "6e387c961c0dc165f2acb44eeae94b29bd7df5a69a8aca78e7775b1b0654b0c2"
+   },
+   "BaldEagle.p01.hdf": {
+    "bytes": 9003483,
+    "sha256": "5ff2e4c37762b18e2f3b51bea356ccb5a3ac96486354278a518e6e7f5637fd27"
+   },
+   "BaldEagle.u02.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "Bridge Hydraulics.p03": {
+  "project": "1D Unsteady Flow Hydraulics/Bridge Hydraulics",
+  "plan": "03",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Bridge_Hydraulics_p03",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=2MIN",
+   "Output Interval=2MIN",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 25.9,
+  "hdf_files": {
+   "beaver.g01.hdf": {
+    "bytes": 2501103,
+    "sha256": "b21054c9b2bce09a579c4ff848cb1f95b2c97103411f664655ec5521a1f942a0"
+   },
+   "beaver.p03.hdf": {
+    "bytes": 4983919,
+    "sha256": "caafd344bad0dea93fb1dfa879fa5088bda951a7c3d715ed3c806a2518532126"
+   },
+   "beaver.u02.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "Culvert Hydraulics.p01": {
+  "project": "1D Unsteady Flow Hydraulics/Culvert Hydraulics",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Culvert_Hydraulics_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1MIN",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 27.6,
+  "hdf_files": {
+   "Beav_Culvert.g01.hdf": {
+    "bytes": 1185817,
+    "sha256": "eb1c5d2a29702f62acf3f5df0ff7c525ec92de4f1ad0bc6c9940743e1604bb04"
+   },
+   "Beav_Culvert.p01.hdf": {
+    "bytes": 2196700,
+    "sha256": "122c449a8559e976366b0cd0a6f9baf4b30c08c407597471675abc4e075cb70f"
+   },
+   "Beav_Culvert.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "JunctionHydraulics.p01": {
+  "project": "1D Unsteady Flow Hydraulics/JunctionHydraulics",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\JunctionHydraulics_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=5MIN",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 40.1,
+  "hdf_files": {
+   "JunctionHydraulics.g01.hdf": {
+    "bytes": 397461,
+    "sha256": "0df8d1944988a3a8d3d9977cd37a352bee4cdfc71a682495ec1d0dff99ec7e02"
+   },
+   "JunctionHydraulics.g02.hdf": {
+    "bytes": 108936,
+    "sha256": "e20b8a97e5afae8400ddf10976c2cecca6bccf57fdc8ad743b93c3a9feb72d75"
+   },
+   "JunctionHydraulics.g03.hdf": {
+    "bytes": 56328,
+    "sha256": "e481012f5ef6f2ee8d0f48b23a6e1adfe0f1d519aa1662d42dad5afaee8b331e"
+   },
+   "JunctionHydraulics.g04.hdf": {
+    "bytes": 56352,
+    "sha256": "aa7a6e24417d2cd8b34cf7231d10a385a514160d838b08808d490d80eb86a10d"
+   },
+   "JunctionHydraulics.p01.hdf": {
+    "bytes": 1022462,
+    "sha256": "b22a59c73c9bf679c171fa1ce3dbc1d5765705057b9d2910dffb2630a34493b3"
+   },
+   "JunctionHydraulics.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   },
+   "JunctionHydraulics.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "Lateral Structure connected to a River Reach.p01": {
+  "project": "1D Unsteady Flow Hydraulics/Lateral Structure connected to a River Reach",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Lateral_Structure_connected_to_a_River_Reach_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=5MIN",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 45.4,
+  "hdf_files": {
+   "3Reach_with_Lat.g01.hdf": {
+    "bytes": 389673,
+    "sha256": "73b96d9c48b34338099b0a4c000be4f85a43fef45a26db8660f685489beeb190"
+   },
+   "3Reach_with_Lat.p01.hdf": {
+    "bytes": 1111322,
+    "sha256": "68704889d7b57bc98a5757fdbfc1fedb7fd87314a5aab90c0c59c511085c41a3"
+   },
+   "3Reach_with_Lat.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "Inline Structure with Gated Spillways.p01": {
+  "project": "1D Unsteady Flow Hydraulics/Inline Structure with Gated Spillways",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Inline_Structure_with_Gated_Spillways_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=5MIN",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 28.0,
+  "hdf_files": {
+   "Inline_3Gates.g01.hdf": {
+    "bytes": 771210,
+    "sha256": "9ac626e9820455e3da7ccc0ff425dad3c6c5b84ffe03e00f1ee6fe7551a2faed"
+   },
+   "Inline_3Gates.p01.hdf": {
+    "bytes": 1543320,
+    "sha256": "ce864712bbf77d2fab1c92c93f8e45f9946304be63caa32981cdb1017060fb75"
+   },
+   "Inline_3Gates.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "Storage Area Hydraulic Connection.p01": {
+  "project": "1D Unsteady Flow Hydraulics/Storage Area Hydraulic Connection",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Storage_Area_Hydraulic_Connection_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=5MIN",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 20.6,
+  "hdf_files": {
+   "Beaver_LS_SAConn.g01.hdf": {
+    "bytes": 376917,
+    "sha256": "b27d8393138fa4f2d2922b3db2a683854124877494d352df2fa114472f1c4922"
+   },
+   "Beaver_LS_SAConn.p01.hdf": {
+    "bytes": 1226509,
+    "sha256": "2fb8a85a6bd2f3f10d7239fea36f8a3b4b7cd5e9ecdc266e8e98e2749163d8c7"
+   },
+   "Beaver_LS_SAConn.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "RAS Model.p01": {
+  "project": "1D Steady Flow Hydraulics/Baxter RAS Mapper/RAS Model",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\RAS_Model_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=10MIN",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 16.6,
+  "hdf_files": {
+   "Baxter.g02.hdf": {
+    "bytes": 627259,
+    "sha256": "c1416cbc7116c007bcfafb4318d5953f58f113e7ba500d934401ced6599349d2"
+   },
+   "Baxter.p01.hdf": {
+    "bytes": 2013007,
+    "sha256": "5e5779e0dd8ec0b5814243c2aa0342d1dfb6c92e8be3dbf93508ffba7e1e9f9d"
+   },
+   "Baxter.u01.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "Baxter.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "Baxter.u03.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "Example 6 - Floodway Determination.p04": {
+  "project": "Applications Guide/Example 6 - Floodway Determination",
+  "plan": "04",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Example_6_-_Floodway_Determination_p04",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1HOUR",
+   "Output Interval=1HOUR",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 11.8,
+  "hdf_files": {
+   "FLODENCR.g01.hdf": {
+    "bytes": 161251,
+    "sha256": "44be34a629fd3b9d85c50e69dd0be7b5edf46e5869589404e3acf435c1fa7244"
+   },
+   "FLODENCR.p04.hdf": {
+    "bytes": 429369,
+    "sha256": "a02ca6dcda2f199acae2cd87c083b6a5fa1f0c450762a80fba6e8197289722f8"
+   }
+  }
+ },
+ "Simple Sediment Transport Example.p01": {
+  "project": "1D Sediment Transport/Simple Sediment Transport Example",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Simple_Sediment_Transport_Example_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1HOUR",
+   "Output Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 16.8,
+  "hdf_files": {
+   "MBex.g02.hdf": {
+    "bytes": 104422,
+    "sha256": "53e734794e28d32581f25117d574600f45b74c6d0f4ff99ee84b12020f7e3939"
+   },
+   "MBex.p01.hdf": {
+    "bytes": 543933,
+    "sha256": "eaacae9f76d9e70d6ef02f24ec2966f9868d753d3ebc49edd222ea8d1376fcd5"
+   }
+  }
+ },
+ "Example 23 - Urban Modeling.p02": {
+  "project": "Applications Guide/Example 23 - Urban Modeling",
+  "plan": "02",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Example_23_-_Urban_Modeling_p02",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1MIN",
+   "Output Interval=5MIN",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 143.1,
+  "hdf_files": {
+   "OrleansEx.g04.hdf": {
+    "bytes": 1766669,
+    "sha256": "ed77b8168e42e45f8fa94df021f9cef1d6aa1fa62b34292135fbe0156d31c37f"
+   },
+   "OrleansEx.p02.hdf": {
+    "bytes": 10741042,
+    "sha256": "ed0f9009b70c439522162d9baa5f341c123623fd3885a89135bdfbfad802ee00"
+   },
+   "OrleansEx.u02.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "Muncie.p03.map1HOUR": {
+  "project": "2D Unsteady Flow Hydraulics/Muncie",
+  "plan": "03",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Muncie_p03_map1HOUR",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=10SEC",
+   "Output Interval=5MIN",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 169.7,
+  "hdf_files": {
+   "Muncie.g01.hdf": {
+    "bytes": 161328,
+    "sha256": "2dcf367d4c25dce68a021bd5c66a3fc3361ef245a9cdba58e78de94d1d6a0529"
+   },
+   "Muncie.g02.hdf": {
+    "bytes": 4192413,
+    "sha256": "41fdb83c486fede91c6f92a4531902d0eb06cc2c3771386700386d1d774fcd67"
+   },
+   "Muncie.g04.hdf": {
+    "bytes": 545035,
+    "sha256": "6d1f7029f7b92ec2b14eda16ac99fabd64386348eb7183da000852fbc102dc22"
+   },
+   "Muncie.p03.hdf": {
+    "bytes": 7100211,
+    "sha256": "58e5ab723b5b6663547ff5f7963da6c328bce4f99170092d1e7c8fd357c752d1"
+   },
+   "Muncie.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "Muncie.p04.map1HOUR": {
+  "project": "2D Unsteady Flow Hydraulics/Muncie",
+  "plan": "04",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Muncie_p04_map1HOUR",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=10SEC",
+   "Output Interval=5MIN",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 93.4,
+  "hdf_files": {
+   "Muncie.g01.hdf": {
+    "bytes": 161328,
+    "sha256": "2dcf367d4c25dce68a021bd5c66a3fc3361ef245a9cdba58e78de94d1d6a0529"
+   },
+   "Muncie.g02.hdf": {
+    "bytes": 533210,
+    "sha256": "c090ebca7a71e738fc28e1c3f38e8182f4838fcaefc2cebdaeae5539cb41df0f"
+   },
+   "Muncie.g04.hdf": {
+    "bytes": 4223615,
+    "sha256": "32a14bc0e65cbe4ad27fad791afab652fa2a012ccf1d076fe8921bb6bb532013"
+   },
+   "Muncie.p04.hdf": {
+    "bytes": 9858102,
+    "sha256": "a6b6b5cf4896309592038c96bbad1c9c737f5773fd45666d65edafba95892f9c"
+   },
+   "Muncie.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "BaldEagleCrkMulti2D.p15.map1HOUR": {
+  "project": "2D Unsteady Flow Hydraulics/BaldEagleCrkMulti2D",
+  "plan": "15",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\BaldEagleCrkMulti2D_p15_map1HOUR",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=20SEC",
+   "Output Interval=5MIN",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 325.9,
+  "hdf_files": {
+   "BaldEagleDamBrk.g01.hdf": {
+    "bytes": 5011856,
+    "sha256": "3ca8e37368efb346a2e69153e23760a52f37d5e845878a0ec075a77064a9f373"
+   },
+   "BaldEagleDamBrk.g02.hdf": {
+    "bytes": 1946428,
+    "sha256": "1890b40f8427c6dfb20f8319d6834b1bea10b293389cea4ca7eedf7d425cd45e"
+   },
+   "BaldEagleDamBrk.g03.hdf": {
+    "bytes": 2287014,
+    "sha256": "17574457c4455bba83b9a3ecde176546a369250aec47aa244ded7f19660311c6"
+   },
+   "BaldEagleDamBrk.g06.hdf": {
+    "bytes": 1003922,
+    "sha256": "e2e6f8fffbe4241babdc35c0c5996390dc9130861d9b69d3426f35740c8c7279"
+   },
+   "BaldEagleDamBrk.g08.hdf": {
+    "bytes": 15957016,
+    "sha256": "cac777ae8f2db2661bd7f4fc1196280acbb171b06e10a4679b54ca5f0b6dd839"
+   },
+   "BaldEagleDamBrk.g09.hdf": {
+    "bytes": 11690739,
+    "sha256": "2f9a72892816824276efdd12fc758a1c89eba7beac5ec491f15b83b03965173a"
+   },
+   "BaldEagleDamBrk.g10.hdf": {
+    "bytes": 630384,
+    "sha256": "21d52a610b0ce9e6389c35e34c8cda27f65298b15f4f96eaf0ea01380125441e"
+   },
+   "BaldEagleDamBrk.g11.hdf": {
+    "bytes": 554140,
+    "sha256": "811e002bc0e81f5a75d61da67002ca764e396e8a3d6bf55a857a2e9e07e86b9b"
+   },
+   "BaldEagleDamBrk.g12.hdf": {
+    "bytes": 428208,
+    "sha256": "81f561f4f2fa854af1bec64f7e9594fcf6b654b6da6cd00baad8bb1f8ac44638"
+   },
+   "BaldEagleDamBrk.g13.hdf": {
+    "bytes": 1155479,
+    "sha256": "29fef0291737d705a825e4bccac90696f93e4dba9254f9bc5850f2858b06e4f3"
+   },
+   "BaldEagleDamBrk.p15.hdf": {
+    "bytes": 25411053,
+    "sha256": "9b14c6cbc7726c67ff702463f56fdaabc8ce55e0de0d96813e8d2e7f64a8367f"
+   },
+   "BaldEagleDamBrk.u01.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u03.hdf": {
+    "bytes": 14517,
+    "sha256": "26687966841748cd3da1f68d9a37edc3f450920b27a3dd88e5e760f149a1bdbb"
+   },
+   "BaldEagleDamBrk.u07.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u08.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u09.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u10.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u11.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u12.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   },
+   "BaldEagleDamBrk.u13.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "BaldEagleCrkMulti2D.p19.map1HOUR": {
+  "project": "2D Unsteady Flow Hydraulics/BaldEagleCrkMulti2D",
+  "plan": "19",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\BaldEagleCrkMulti2D_p19_map1HOUR",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=20SEC",
+   "Output Interval=1MIN",
+   "Mapping Interval=1HOUR"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 62.2,
+  "hdf_files": {
+   "BaldEagleDamBrk.g01.hdf": {
+    "bytes": 5011856,
+    "sha256": "3ca8e37368efb346a2e69153e23760a52f37d5e845878a0ec075a77064a9f373"
+   },
+   "BaldEagleDamBrk.g02.hdf": {
+    "bytes": 1946428,
+    "sha256": "1890b40f8427c6dfb20f8319d6834b1bea10b293389cea4ca7eedf7d425cd45e"
+   },
+   "BaldEagleDamBrk.g03.hdf": {
+    "bytes": 2287014,
+    "sha256": "17574457c4455bba83b9a3ecde176546a369250aec47aa244ded7f19660311c6"
+   },
+   "BaldEagleDamBrk.g06.hdf": {
+    "bytes": 1003922,
+    "sha256": "e2e6f8fffbe4241babdc35c0c5996390dc9130861d9b69d3426f35740c8c7279"
+   },
+   "BaldEagleDamBrk.g08.hdf": {
+    "bytes": 1365806,
+    "sha256": "a383fee67e0707934e7b28fc094d6e354b4915ab053f39a572670792adf1452c"
+   },
+   "BaldEagleDamBrk.g09.hdf": {
+    "bytes": 11690739,
+    "sha256": "2f9a72892816824276efdd12fc758a1c89eba7beac5ec491f15b83b03965173a"
+   },
+   "BaldEagleDamBrk.g10.hdf": {
+    "bytes": 630384,
+    "sha256": "21d52a610b0ce9e6389c35e34c8cda27f65298b15f4f96eaf0ea01380125441e"
+   },
+   "BaldEagleDamBrk.g11.hdf": {
+    "bytes": 554140,
+    "sha256": "811e002bc0e81f5a75d61da67002ca764e396e8a3d6bf55a857a2e9e07e86b9b"
+   },
+   "BaldEagleDamBrk.g12.hdf": {
+    "bytes": 4504611,
+    "sha256": "8ae0905ffd124c16620bfe1e04b7c5a33af6a82b8350c840fc092e79e57f8f05"
+   },
+   "BaldEagleDamBrk.g13.hdf": {
+    "bytes": 1155479,
+    "sha256": "29fef0291737d705a825e4bccac90696f93e4dba9254f9bc5850f2858b06e4f3"
+   },
+   "BaldEagleDamBrk.p19.hdf": {
+    "bytes": 7356894,
+    "sha256": "f68a5405be75e01ca14f3cd906a3c40548c5a8f93ee4e8bd21ab660a58710564"
+   },
+   "BaldEagleDamBrk.u01.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u03.hdf": {
+    "bytes": 14517,
+    "sha256": "26687966841748cd3da1f68d9a37edc3f450920b27a3dd88e5e760f149a1bdbb"
+   },
+   "BaldEagleDamBrk.u07.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u08.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u09.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u10.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u11.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   },
+   "BaldEagleDamBrk.u12.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "BaldEagleDamBrk.u13.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "Weise_2D.p01.ovr": {
+  "project": "2D Sediment Transport/Weise_2D",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Weise_2D_p01_ovr",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=0.2SEC",
+   "Output Interval=1MIN",
+   "Mapping Interval=5MIN",
+   "Run Sediment= 0"
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 353.4,
+  "hdf_files": {
+   "LandCover.hdf": {
+    "bytes": 10368,
+    "sha256": "d246baf33d7b051d06a2c8907c220ed128a939cbc018b957265eefaab018ca60"
+   },
+   "Terrain_With_Walls_0p01m.hdf": {
+    "bytes": 92680,
+    "sha256": "9e2b126c10038bc4541ca2a9b1e3392a7099a0a919fb14ce1eeb31bdc757ad34"
+   },
+   "Terrain_With_Walls_0p01m_Channel_Only.hdf": {
+    "bytes": 103422,
+    "sha256": "2a8a6186d49264f48bbc0502359bf2a59a8fabe31b67b1e6e1cd7f647709df54"
+   },
+   "Weise.g08.hdf": {
+    "bytes": 423941,
+    "sha256": "e95431ef2db4427a5449c94a569d59fc71893acb76077012529ef49e78158e81"
+   },
+   "Weise.p01.hdf": {
+    "bytes": 1382180,
+    "sha256": "49222434f1f9e82ccc9ca902adf6c3f5845ae8b7f143fb92deadaead27656d7c"
+   },
+   "Weise.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "Weise_2D.p01.ovr.sed": {
+  "project": "2D Sediment Transport/Weise_2D",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Weise_2D_p01_ovr_sed",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=0.2SEC",
+   "Output Interval=1MIN",
+   "Mapping Interval=5MIN",
+   "Run Sediment=-1 "
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 123.2,
+  "hdf_files": {
+   "LandCover.hdf": {
+    "bytes": 10368,
+    "sha256": "d246baf33d7b051d06a2c8907c220ed128a939cbc018b957265eefaab018ca60"
+   },
+   "Terrain_With_Walls_0p01m.hdf": {
+    "bytes": 92680,
+    "sha256": "9e2b126c10038bc4541ca2a9b1e3392a7099a0a919fb14ce1eeb31bdc757ad34"
+   },
+   "Terrain_With_Walls_0p01m_Channel_Only.hdf": {
+    "bytes": 103422,
+    "sha256": "2a8a6186d49264f48bbc0502359bf2a59a8fabe31b67b1e6e1cd7f647709df54"
+   },
+   "Weise.g08.hdf": {
+    "bytes": 423941,
+    "sha256": "b7eb3dbe0aa7c0f3f95c0b03147ec73ea7b080ec8f2c1c503be459f5b7f11c58"
+   },
+   "Weise.p01.hdf": {
+    "bytes": 4435614,
+    "sha256": "e2339f32ba883f0701cbf51db1ac77f7885ff1f67641a732a738deddf563a2ae"
+   },
+   "Weise.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "1101001403.p01.ovr.geompre": {
+  "project": "eBFE_11010014/1101001403",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\1101001403_p01_ovr_geompre",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1MIN",
+   "Output Interval=1MIN",
+   "Mapping Interval=6HOUR",
+   "Run Sediment= 0 "
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=None)",
+  "success": true,
+  "seconds": 26.3,
+  "hdf_files": {
+   "1101001403.g01.hdf": {
+    "bytes": 2595311,
+    "sha256": "360f6c5ecad25b149d6943e01f00dcfe8bed1937770774701f0c32de46fecf5c"
+   },
+   "1101001403.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   },
+   "1101001403.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001403.u03.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001403.u04.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001403.u05.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001403.u06.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001403.u07.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "Chippewa_2D.p02.ovr.sed": {
+  "project": "2D Sediment Transport/Chippewa_2D",
+  "plan": "02",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Chippewa_2D_p02_ovr_sed",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=2MIN",
+   "Output Interval=10MIN",
+   "Mapping Interval=1HOUR",
+   "Run Sediment=-1 "
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 93.6,
+  "hdf_files": {
+   "Chippewa_2D.g01.hdf": {
+    "bytes": 424343,
+    "sha256": "40c5731d2988c5b0e2f2fbd29adea7051a630f37b2352445d420a8fe198b4937"
+   },
+   "Chippewa_2D.p02.hdf": {
+    "bytes": 69941235,
+    "sha256": "e9754e96194912cdd44e187e56cc1c498b3bf7342bf0df931c29b0dcaf4913cc"
+   },
+   "Chippewa_2D.u04.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ },
+ "1101001404.p01.ovr.geompre": {
+  "project": "eBFE_11010014/1101001404",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\1101001404_p01_ovr_geompre",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1MIN",
+   "Output Interval=1MIN",
+   "Mapping Interval=6HOUR",
+   "Run Sediment= 0 "
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=None)",
+  "success": true,
+  "seconds": 13.5,
+  "hdf_files": {
+   "1101001404.g01.hdf": {
+    "bytes": 3176581,
+    "sha256": "9f625a61768c9ec77384f0b4d1b997d227ab8eaadcdbd6ee8dd5f42c7c11b278"
+   },
+   "1101001404.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   },
+   "1101001404.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001404.u03.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001404.u04.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001404.u05.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001404.u06.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001404.u07.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "1101001407.p01.ovr.geompre": {
+  "project": "eBFE_11010014/1101001407",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\1101001407_p01_ovr_geompre",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1MIN",
+   "Output Interval=1MIN",
+   "Mapping Interval=6HOUR",
+   "Run Sediment= 0 "
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=None)",
+  "success": true,
+  "seconds": 16.9,
+  "hdf_files": {
+   "1101001407.g01.hdf": {
+    "bytes": 4132730,
+    "sha256": "ce214f93dc9834860da8d28bcf1fa52ff8f4a291f4bbf19e3c86fb35da46f090"
+   },
+   "1101001407.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   },
+   "1101001407.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001407.u03.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001407.u04.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001407.u05.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001407.u06.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001407.u07.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "1101001405.p01.ovr.geompre": {
+  "project": "eBFE_11010014/1101001405",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\1101001405_p01_ovr_geompre",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=1MIN",
+   "Output Interval=1MIN",
+   "Mapping Interval=6HOUR",
+   "Run Sediment= 0 "
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=None)",
+  "success": true,
+  "seconds": 16.1,
+  "hdf_files": {
+   "1101001405.g01.hdf": {
+    "bytes": 3510633,
+    "sha256": "5301938b4b00c43a7f2a9db71db9a61be2e5bf4bd208925ed753e240b0251943"
+   },
+   "1101001405.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   },
+   "1101001405.u02.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001405.u03.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001405.u04.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001405.u05.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001405.u06.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   },
+   "1101001405.u07.hdf": {
+    "bytes": 800,
+    "sha256": "26c4d449632ea072317c16e9d4857e419b67e1b7751f81a89a87c8e75fe9484e"
+   }
+  }
+ },
+ "Stream248.p01": {
+  "project": "eBFE_12100203/Stream248",
+  "plan": "01",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Stream248_p01",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 6.1,
+  "hdf_files": {
+   "Stream248.g01.hdf": {
+    "bytes": 172280,
+    "sha256": "7ea74be7862ae8ae201b8d67dc4917a7e8494374347f73573a82a34f5608ee81"
+   },
+   "Stream248.p01.hdf": {
+    "bytes": 479758,
+    "sha256": "05fece26c2615d827b2818dacbdfa0a1f09c2888d7f15384ef5abb439eceb094"
+   }
+  }
+ },
+ "Stream248.p02": {
+  "project": "eBFE_12100203/Stream248",
+  "plan": "02",
+  "ras_version": "7.0.1",
+  "copy": "provenance/ras701-corpus/runs\\Stream248_p02",
+  "ras_commander_file": "clb-local:ras_commander/__init__.py",
+  "method": "RasCmdr.compute_plan(plan, ras_object, num_cores=2, clear_geompre=True)",
+  "plan_settings": [
+   "Computation Interval=10SEC",
+   "Output Interval=15MIN",
+   "Mapping Interval=1HOUR",
+   "Run Sediment= 0 "
+  ],
+  "result": "ComputeResult(SUCCESS, unverified, results_df_row=available)",
+  "success": true,
+  "seconds": 5.5,
+  "hdf_files": {
+   "Stream248.g01.hdf": {
+    "bytes": 441761,
+    "sha256": "3534d9a090362f8e78edbfb9a1b126e4065650f74b318928d6e35f8711e66f86"
+   },
+   "Stream248.p02.hdf": {
+    "bytes": 993520,
+    "sha256": "32ec7cb4e1b4ceb2a0a551109d02ce41f71ebadcd075d3de150617e916966a75"
+   },
+   "Stream248.u01.hdf": {
+    "bytes": 13176,
+    "sha256": "e425f75c8974eb30e3c29c5331cf739713ed7c530acecf706d46242a552b75a6"
+   }
+  }
+ }
+}
